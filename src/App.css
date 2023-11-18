@@ -1,0 +1,247 @@
+.App {
+  text-align: center;
+}
+
+.component-main-div{
+  display: inline-block;
+  text-align: center;
+}
+
+.Navbar-class{
+  margin-bottom: 20px;
+  background-color: rgb(7, 7, 95);
+}
+
+
+
+.navbar-button-class{
+  margin: 5px 15px;
+  color: white;
+  font-weight: 400;
+  background: transparent;
+  border: none;
+  overflow: hidden;
+  transition: 0.1s;
+  padding: 5px;
+}
+
+
+.navbar-button-class:hover {
+  cursor: pointer;
+  
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #14979e, 0 0 10px #14979e, 0 0 20px #14979e, 0 0 30px #14979e;
+
+}
+
+
+.skills-certificate-button-class:hover {
+  cursor: pointer;
+  
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 10px #03e9f4, 0 0 20px #03e9f4, 0 0 30px #03e9f4;
+  font-weight: 500;
+
+}
+
+.projects-button-class:hover {
+  cursor: pointer;
+  
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 10px #03e9f4, 0 0 20px #03e9f4, 0 0 30px #03e9f4;
+  font-weight: 500;
+
+}
+
+.achievements-button-class:hover {
+  cursor: pointer;
+  
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 10px #03e9f4, 0 0 20px #03e9f4, 0 0 30px #03e9f4;
+}
+
+.publications-button-class:hover {
+  cursor: pointer;
+  
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 10px #03e9f4, 0 0 20px #03e9f4, 0 0 30px #03e9f4;
+}
+
+
+.navbar-toggler-icon {
+  background-color: whitesmoke; 
+}
+
+
+
+.portfolio-body-div {
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.element h4 {
+  text-align: left;
+  margin-left: 30px;
+  color: white;
+  font-size: 1.8rem;
+}
+
+@media(min-width : 1000px){
+  .element h4{
+    margin-left: 80px;
+  }
+}
+
+.section-content-div {
+  line-height: 1.5;
+  max-width: 70%;
+  margin: 0 auto; /* Center the content horizontally within the container */
+  text-align: justify;
+  color: white;
+  font-size: large;
+}
+
+@media(max-width : 1000px){
+  .section-content-div{
+    max-width: 80%;
+  }
+}
+
+.image-class{
+  height: 60px;
+  width: 60px;
+  margin: 5px;
+}
+
+td{
+  width: max-content;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  padding: 0px 10px;
+}
+
+dt{
+  font-weight: bold;
+  color: rgb(16, 224, 16);
+}
+
+dd {
+  margin-left: 20px;
+}
+
+.check-link-a-class{
+  margin: 10px;
+}
+
+.home-check-link-a-class{
+  margin: 0px;
+  padding: 5px;
+}
+
+.home-check-link-a-class:hover {
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #2aa2a8, 0 0 10px #2aa2a8, 0 0 20px #2aa2a8, 0 0 30px #2aa2a8;
+
+}
+
+.name-div{
+  text-align: left;
+  margin-left: 30px;
+  text-align: justify; /* Justify the text lines */
+}
+
+@media(min-width : 1000px){
+  .name-div{
+    margin-left: 80px;
+  }
+}
+
+.name-div h4{
+  color: rgb(16, 224, 16);
+}
+
+.name-div h1{
+  color: white;
+  font-size: 2.5rem;
+}
+
+.name-div h3{
+  color: rgb(226, 78, 189);
+  font-size: 1.3rem;
+}
+
+.tech-stack-div{
+  color: orange;
+  font-weight: bold;
+}
+
+.small-image-class{
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+
+.publications-li-class{
+  font-size: small;
+  font-size: medium;
+}
+
+
+.check-link-a-progress-class{
+  margin : 0px;
+}
+
+.navbar-name{
+  color: white;
+  font-weight: 500;
+}
+
+
+.table-transparent{
+  background-color: transparent;
+}
+
+.table-transparent tbody, 
+.table-transparent tr, 
+.table-transparent td{
+  background-color: transparent;
+  color: white;
+}
+
+
+td{
+  background-color: transparent;
+  color: white;
+}
+
+
+.cgpa-span-class{
+  color: rgb(65, 228, 59);
+}
+
+.institute-h6-class{
+  color: #03e9f4;
+}
+
+.achievements-button-class{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
